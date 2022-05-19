@@ -1,0 +1,153 @@
+.submit-register-details-btn{
+    width:fit-content;
+    padding: 5px;
+}
+
+.auth-btn{
+    position: absolute;
+    left:95;
+    right:0;
+    top: 0;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: #5865F2;
+}
+  
+.auth-btn:hover{
+    background-color: #9098f7;
+    color: black;
+    cursor: pointer;
+}
+  
+.choice-btn{
+    padding: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: #5865F2;
+    margin: 1px;
+}
+
+.choice-btn:hover{
+    background-color: #9098f7;
+    color: black;
+    cursor: pointer;
+}
+  
+.submit-btn{
+    background-color: #2af70f;
+    width: fit-content;
+    cursor: pointer;
+}
+  
+.submit-btn:hover{
+    background-color: #1bc705;
+}
+  
+.submit-btn:focus{
+    background-color: #1bc705;
+}
+  
+.submit-btn:disabled{
+    background-color: #b2eeaa;
+}
+  
+.logout-btn{
+    background-color: #e70404;
+}
+  
+.logout-btn:hover{
+    background-color: #e75e5e;
+}
+
+.menu-section-btn{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+    
+.menu-section-btn:hover{
+    background-color: #545557;
+    cursor: pointer;
+}
+
+.dropdown-btn{
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    position: absolute;
+    left: 0;
+    right: 95;
+    top: 0;
+}
+
+.create-btn{
+    border: none;
+    background-color: #5865F2;
+    padding: 10px;
+    font-size: medium;
+    width: fit-content;
+    cursor: pointer;
+}
+  
+.add-btn{
+    border: none;
+    background-color: #5865F2;
+    padding: 5px;
+    font-size: medium;
+    width: fit-content;
+    cursor: pointer;
+}
+  
+.larger-btn{
+    padding: 10px;
+    font-size: medium;
+    width: fit-content;
+}
+
+.copy-btn{
+    margin-left: 10px;
+}
+
+button{
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+    border: none;
+    font-family: 'Hubballi', cursive;
+    font-size: large;
+    font-weight: bolder;
+}
+  
+button:disabled{
+    cursor: not-allowed;
+}
+
+.question-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.quiz-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.discord-btn{
+    border: none;
+    background-color: white;
+    padding: 10px;
+}
+  
+.discord-btn:hover{
+    background-color: rgba(255, 255, 255, 0.822);
+    cursor: pointer;
+}
